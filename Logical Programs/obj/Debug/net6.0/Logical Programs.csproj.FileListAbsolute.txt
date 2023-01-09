@@ -1,0 +1,15 @@
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\bin\Debug\net6.0\Logical Programs.exe
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\bin\Debug\net6.0\Logical Programs.deps.json
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\bin\Debug\net6.0\Logical Programs.runtimeconfig.json
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\bin\Debug\net6.0\Logical Programs.dll
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\bin\Debug\net6.0\Logical Programs.pdb
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\obj\Debug\net6.0\Logical Programs.csproj.AssemblyReference.cache
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\obj\Debug\net6.0\Logical Programs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\obj\Debug\net6.0\Logical Programs.AssemblyInfoInputs.cache
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\obj\Debug\net6.0\Logical Programs.AssemblyInfo.cs
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\obj\Debug\net6.0\Logical Programs.csproj.CoreCompileInputs.cache
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\obj\Debug\net6.0\Logical Programs.dll
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\obj\Debug\net6.0\refint\Logical Programs.dll
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\obj\Debug\net6.0\Logical Programs.pdb
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\obj\Debug\net6.0\Logical Programs.genruntimeconfig.cache
+C:\Users\ashwa\Documents\RFP .net BridgeLabz\Day 6 Logical Programming Practice Problem\Day 6 problem\Logical-Programming-Problems\Logical Programs\obj\Debug\net6.0\ref\Logical Programs.dll
