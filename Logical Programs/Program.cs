@@ -14,11 +14,11 @@ namespace Logical_Programs
             while (number != 0)
             {   
                 rem = number % 10;
-                rev = rem + rev;
-                rev = rev * 10;               
+               // rev = rem + rev;
+                rev = rev * 10 + rem;               
                 number = number / 10;
             }
-            rev /= 10;
+           // rev /= 10;
             Console.WriteLine("Reverse number of {0} is {1}",temp,rev);
 
             if (temp == rev)
