@@ -6,24 +6,28 @@ namespace Logical_Programs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Prime Number");
+            Console.WriteLine("Reverse a number and Check palindrome or not");
             Console.Write("Enter the number : ");
             int number = Convert.ToInt32(Console.ReadLine());
-            int counter = 0;
-            for (int i = 1; i <= number; i++)
-            {
-                if ( number % i == 0)
-                {
-                    counter++;
-                }
+            int temp = number;
+            int rev = 0, rem=0;
+            while (number != 0)
+            {   
+                rem = number % 10;
+                rev = rem + rev;
+                rev = rev * 10;               
+                number = number / 10;
             }
-            if (counter == 2)
+            rev /= 10;
+            Console.WriteLine("Reverse number of {0} is {1}",temp,rev);
+
+            if (temp == rev)
             {
-                Console.WriteLine("It's a Prime Number");
+                Console.WriteLine("Palindrome Number");
             }
             else
             {
-                Console.WriteLine("It's not a Prime Number");
+                Console.WriteLine("Not a Palindrome Number");
             }
         }
     }
