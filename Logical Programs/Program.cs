@@ -4,31 +4,33 @@ namespace Logical_Programs
 {
     internal class Program
     {
+        public static void CouponNumberGenerator(int N)
+        {
+            int[] coupon = new int[N];
+            Random random = new Random();
+            for (int i = 0; i < N ; i++)
+            {
+                coupon[i] = random.Next(1000 , 10000);
+                int check = coupon[i];
+                for (int j = i-1; j >= 0 ; j--)
+                {
+                    if (coupon[i] == coupon[j])
+                    {
+                        i--;
+                    }
+                }
+            }
+            for (int i = 0; i < N; i++)
+            {
+                Console.WriteLine("Coupon "+(i+1)+" : "+coupon[i]);
+            }
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Reverse a number and Check palindrome or not");
-            Console.Write("Enter the number : ");
-            int number = Convert.ToInt32(Console.ReadLine());
-            int temp = number;
-            int rev = 0, rem=0;
-            while (number != 0)
-            {   
-                rem = number % 10;
-               // rev = rem + rev;
-                rev = rev * 10 + rem;               
-                number = number / 10;
-            }
-           // rev /= 10;
-            Console.WriteLine("Reverse number of {0} is {1}",temp,rev);
-
-            if (temp == rev)
-            {
-                Console.WriteLine("Palindrome Number");
-            }
-            else
-            {
-                Console.WriteLine("Not a Palindrome Number");
-            }
+            Console.Write("Enter the number of Distinct Coupon number you want : ");
+            int N = Convert.ToInt32(Console.ReadLine());  
+            CouponNumberGenerator(N);   
         }
     }
 }
