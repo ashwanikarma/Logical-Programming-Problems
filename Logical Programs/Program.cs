@@ -1,30 +1,29 @@
-﻿namespace Logical_Programs
+﻿using System.Diagnostics.Metrics;
+
+namespace Logical_Programs
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Perfect Number");
+            Console.WriteLine("Prime Number");
             Console.Write("Enter the number : ");
             int number = Convert.ToInt32(Console.ReadLine());
-            int result=0;
-            for (int i = 1; i < number ; i++)
+            int counter = 0;
+            for (int i = 1; i <= number; i++)
             {
-                if ( number % i == 0 )
+                if ( number % i == 0)
                 {
-                    Console.Write(i+"+");
-                    result += i;
+                    counter++;
                 }
             }
-            Console.WriteLine("\b : {0}",result);
-
-            if (number == result)
+            if (counter == 2)
             {
-                Console.WriteLine("It's a Perfect Number.");
+                Console.WriteLine("It's a Prime Number");
             }
             else
             {
-                Console.WriteLine("It's not a Perfect Number.");
+                Console.WriteLine("It's not a Prime Number");
             }
         }
     }
